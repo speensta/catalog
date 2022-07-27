@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: catalog
+  rabbitmq:
+    host: ec2-43-200-132-48.ap-northeast-2.compute.amazonaws.com
+    port: 5672
+    username: guest
+    password: guest
   h2:
     console:
       enabled: true
